@@ -1,0 +1,14 @@
+h1{
+font-family: garamond;
+font-size: 50px;
+    position:absolute;
+}
+  
+   #grad { background: linear-gradient(white, black); /* Standard syntax */ 
+   width:100vw;
+   height:100vh;
+
+}
+<p>
+<img src="img/spiderweb.png" alt="spider web" style="float:right;width:42px;height:42px;">
+</p>

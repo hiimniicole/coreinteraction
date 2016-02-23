@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheetproject1.css"/>
+    <title>core interaction</title>
+  </head>
+  <body>
+    <h1>The Giving Tree </h1>
+    <div id="grad"></div>
+  </body>
+</html> 

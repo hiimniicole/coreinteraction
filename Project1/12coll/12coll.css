@@ -1,0 +1,17 @@
+.boxRed {
+width:100px;
+height:100px;
+    background:aqua;
+float:left;
+    
+}
+.boxBlue{
+    width:100px;
+    height:100px;
+    background:pink;
+float:left;    
+}
+#container{
+    width:1200px;
+    
+}

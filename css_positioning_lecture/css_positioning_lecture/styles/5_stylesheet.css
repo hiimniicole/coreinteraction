@@ -5,6 +5,9 @@ div {
   border-radius: 5px;
   background-color: #308014;
   /*Add your CSS here!*/
-  float:center;
+  float:right;
+  #left {
+float:left;
+}
 }
 

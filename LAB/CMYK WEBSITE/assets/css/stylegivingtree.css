@@ -1,0 +1,24 @@
+h1{
+font-family: helvetica;
+font-size: 80px;
+color: black;  
+}
+
+
+html { 
+  background: url(../img/cmyk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* The below is used to center a div vertically and horizontally */
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
