@@ -1,8 +1,75 @@
-h1{
+/*core lab */
+h3{
 font-family: helvetica;
-font-size: 80px;
+font-size: 200px;
 color: black;  
+
+position: absolute;
+    left: 10px;
+    top: 300px;  
+  
 }
+/* projects*/
+h1 {
+    text-align: center;
+    font-family:helvetica;  
+    font-size: 40px;
+    color:black;
+  
+  position: absolute;
+    left: 370px;
+    top: 250px;
+}
+/*assignments */
+h2 { 
+  text-align: center;
+    font-family:helvetica;  
+    font-size: 40px;
+    color:black;
+
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+/*reading */
+h4 {
+  text-align: center;
+    font-family:helvetica;  
+    font-size: 40px;
+    color:black;
+
+  position: absolute;
+    left: 540px;
+    top: 120px;
+}
+/*sketches */
+h5 {
+  text-align: center;
+    font-family:helvetica;  
+    font-size: 40px;
+    color:black;
+
+  position: absolute;
+    left: 740px;
+    top: 210px;
+  
+}
+  
+
+a:link    {
+    color:black; 
+    background-color:transparent; 
+    text-decoration:none;
+    
+}
+
+a:visited {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:none}
+a:active  {color:black; background-color:transparent; text-decoration:none}
+
+ 
+
+
 
 
 html { 
