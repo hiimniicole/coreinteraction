@@ -2,8 +2,74 @@ h1{
 font-family: garamond;
 font-size: 100px;
 text-align: center;
-    
+
+  position: absolute;
+    left: 400px;
+    top: 180px;
 }
+
+h2{ 
+ font-family: garamond;
+font-size: 100px;
+text-align: left;   
+ 
+ position: absolute;
+    left: 0px;
+    top: 0px;   
+}
+
+h3{
+  font-family: garamond;
+font-size: 80px;
+text-align: left;   
+ 
+ position: absolute;
+    left: 200px;
+    top: 200px;   
+}
+
+h4{
+  font-family: garamond;
+font-size: 60px;
+text-align: left;   
+ 
+ position: absolute;
+    left: 400px;
+    top: 400px;   
+}
+
+h5{
+  font-family: garamond;
+font-size: 40px;
+text-align: left;   
+ 
+ position: absolute;
+    left: 600px;
+    top: 600px;   
+}
+
+h6{
+  font-family: garamond;
+font-size: 30px;
+text-align: left;   
+ 
+ position: absolute;
+    left: 800px;
+    top: 800px;   
+}
+
+h7{
+  font-family: garamond;
+font-size: 20px;
+text-align: left;   
+ 
+ position: absolute;
+    left: 1000px;
+    top: 1000px;   
+}
+
+
+
 
 a:link    {
     color:black; 
@@ -18,11 +84,23 @@ a:active  {color:black; background-color:transparent; text-decoration:underline}
 
  
  
-   #grad { background: linear-gradient(white, black); /* Standard syntax */ 
-   width:100vw;
-   height:100vh;
+ 
+/*makes image cover background on all pages */
+html { 
+  background: url(../project1/test.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* The below is used to center a div vertically and horizontally */
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 
 }
-/*<p>*/
-/*<img src="img/spiderweb.png" alt="spider web" style="float:right;width:42px;height:42px;">*/
-/*</p>*/
