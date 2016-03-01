@@ -12,11 +12,14 @@ h2{
  font-family: garamond;
 font-size: 100px;
 text-align: left;   
- 
+ text-align: justify;
  position: absolute;
-    left: 0px;
-    top: 0px;   
+    left: 100px;
+    top: 100px;   
+    
 }
+
+
 
 h3{
   font-family: garamond;
@@ -24,9 +27,11 @@ font-size: 80px;
 text-align: left;   
  
  position: absolute;
-    left: 200px;
-    top: 200px;   
+    left: 400px;
+    top: 400px;   
 }
+
+
 
 h4{
   font-family: garamond;
@@ -34,9 +39,11 @@ font-size: 60px;
 text-align: left;   
  
  position: absolute;
-    left: 400px;
-    top: 400px;   
+    left: 800px;
+    top: 800px;   
 }
+
+
 
 h5{
   font-family: garamond;
@@ -44,9 +51,11 @@ font-size: 40px;
 text-align: left;   
  
  position: absolute;
-    left: 600px;
-    top: 600px;   
+    left: 1200px;
+    top: 1200px;   
 }
+
+
 
 h6{
   font-family: garamond;
@@ -54,9 +63,14 @@ font-size: 30px;
 text-align: left;   
  
  position: absolute;
-    left: 800px;
-    top: 800px;   
+    left: 1400px;
+    top: 1400px;   
 }
+
+
+
+
+
 
 h7{
   font-family: garamond;
@@ -64,9 +78,11 @@ font-size: 20px;
 text-align: left;   
  
  position: absolute;
-    left: 1000px;
-    top: 1000px;   
+    left: 1500px;
+    top: 1500px;   
 }
+
+
 
 
 
@@ -103,4 +119,72 @@ html {
   transform: translate(-50%, -50%);
   
 
+}
+
+
+.rotate1 {
+    
+/* Safari */
+-webkit-transform: rotate(4deg);
+/* Firefox */
+-moz-transform: rotate(4deg);
+/* IE */
+-ms-transform: rotate(4deg);
+/* Opera */
+-o-transform: rotate(4deg);
+}
+.rotate2 {
+    
+/* Safari */
+-webkit-transform: rotate(5deg);
+/* Firefox */
+-moz-transform: rotate(5deg);
+/* IE */
+-ms-transform: rotate(5deg);
+/* Opera */
+-o-transform: rotate(5deg);
+}
+.rotate3 {
+    
+/* Safari */
+-webkit-transform: rotate(5deg);
+/* Firefox */
+-moz-transform: rotate(5deg);
+/* IE */
+-ms-transform: rotate(5deg);
+/* Opera */
+-o-transform: rotate(5deg);
+}
+.rotate4 {
+    
+/* Safari */
+-webkit-transform: rotate(5deg);
+/* Firefox */
+-moz-transform: rotate(5deg);
+/* IE */
+-ms-transform: rotate(5deg);
+/* Opera */
+-o-transform: rotate(5deg);
+}
+.rotate5 {
+    
+/* Safari */
+-webkit-transform: rotate(5deg);
+/* Firefox */
+-moz-transform: rotate(5deg);
+/* IE */
+-ms-transform: rotate(5deg);
+/* Opera */
+-o-transform: rotate(5deg);
+}
+.rotate6 {
+    
+/* Safari */
+-webkit-transform: rotate(5deg);
+/* Firefox */
+-moz-transform: rotate(5deg);
+/* IE */
+-ms-transform: rotate(5deg);
+/* Opera */
+-o-transform: rotate(5deg);
 }

@@ -20,8 +20,8 @@ h1 {
     color:black;
   
   position: absolute;
-    left: 370px;
-    top: 250px;
+    left: 100px;
+    top: 200px;
 }
 /*assignments */
 h2 { 
@@ -42,8 +42,8 @@ h4 {
     color:black;
 
   position: absolute;
-    left: 540px;
-    top: 120px;
+    left: 400px;
+    top: 130px;
 }
 /*sketches */
 h5 {
@@ -53,11 +53,88 @@ h5 {
     color:black;
 
   position: absolute;
-    left: 740px;
-    top: 210px;
+    left: 400px;
+    top: 160px;
   
 }
-  
+ /*project page title*/
+ h6 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 150px;
+    color:black;
+
+  position: absolute;
+    left: 0px;
+    top: 0px;
+ }
+/*project numbers123*/
+h7 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 100px;
+    color:black;
+
+  position: absolute;
+    left: 0px;
+    top: 600px;
+ }
+
+h8 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 100px;
+    color:black;
+
+  position: absolute;
+    left: 230px;
+    top: 600px;
+ }
+h9 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 100px;
+    color:black;
+
+  position: absolute;
+    left: 460px;
+    top: 600px;
+ }
+
+
+p1 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 20px;
+    color:black;
+
+  position: absolute;
+    left: 100px;
+    top: 200px;
+ }
+p3 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 20px;
+    color:black;
+
+  position: absolute;
+    left: 1200px;
+    top: 200px;
+ }
+p2 {
+ text-align: center;
+    font-family:helvetica;  
+    font-size: 20px;
+    color:black;
+
+  position: absolute;
+    left: 550px;
+    top: 200px;
+ }
+
+
+
 
 a:link    {
     color:black; 
