@@ -1,137 +1,105 @@
 /*core lab */
-h3{
-font-family: helvetica;
-font-size: 200px;
+h1{
+font-size: 180px;
 color: black;  
+position:absolute;
+top:250px;
+left:-400px;
+-webkit-transform: rotate(90deg);
+/* Firefox */
+-moz-transform: rotate(90deg);
+/* IE */
+-ms-transform: rotate(90deg);
+/* Opera */
+-o-transform: rotate(90deg);
 
-position: absolute;
-    left: 10px;
-    top: 300px;  
-  
 }
 
 
+h2 {
+text-align: center;
+    font-family:helvetica;  
+    font-size: 40px;
+    color:black;
+    position: absolute;
+}
 
 /* projects*/
-h1 {
-    text-align: center;
-    font-family:helvetica;  
-    font-size: 40px;
-    color:black;
-  
-  position: absolute;
-    left: 100px;
+.one {
+    left: 200px;
     top: 200px;
 }
-/*assignments */
-h2 { 
-  text-align: center;
-    font-family:helvetica;  
-    font-size: 40px;
-    color:black;
 
-    position: absolute;
-    left: 100px;
+/*assignments */
+.two { 
+    left: 200px;
     top: 150px;
 }
+
 /*reading */
-h4 {
-  text-align: center;
-    font-family:helvetica;  
-    font-size: 40px;
-    color:black;
-
-  position: absolute;
-    left: 400px;
-    top: 130px;
+.three {
+    left: 500px;
+    top: 150px;
 }
-/*sketches */
-h5 {
-  text-align: center;
-    font-family:helvetica;  
-    font-size: 40px;
-    color:black;
 
-  position: absolute;
-    left: 400px;
-    top: 160px;
+/*sketches */
+.ten {
+    left: 500px;
+    top: 200px;
   
 }
  /*project page title*/
- h6 {
- text-align: center;
-    font-family:helvetica;  
-    font-size: 150px;
-    color:black;
-
-  position: absolute;
+.five {
     left: 0px;
     top: 0px;
  }
-/*project numbers123*/
-h7 {
- text-align: center;
-    font-family:helvetica;  
+ 
+/*project details paragraphs*/
+p {
+  width:500px;
+  display:inline-block;
+  margin:0 auto;
+  position:relative;
+  vertical-align: top;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 30%;
+    width: 90%;
+    margin: -9% 0 0 -40%;
+}
+/*Projects title page*/
+#project-title {
+    position: absolute;
+    top:200px;
+    left:700px;
     font-size: 100px;
-    color:black;
-
-  position: absolute;
-    left: 0px;
-    top: 600px;
- }
-
-h8 {
- text-align: center;
-    font-family:helvetica;  
+}
+/*assignments title page*/
+#project-title2 {
+    position: absolute;
+    top:200px;
+    left:700px;
     font-size: 100px;
-    color:black;
-
-  position: absolute;
-    left: 230px;
-    top: 600px;
- }
-h9 {
- text-align: center;
-    font-family:helvetica;  
+}
+/*reading title page*/
+#project-title3 {
+    position: absolute;
+    top:200px;
+    left:700px;
     font-size: 100px;
-    color:black;
+}
+/*sketches title page*/
+#project-title4 {
+    position: absolute;
+    top:200px;
+    left:700px;
+    font-size: 100px;
+}
 
-  position: absolute;
-    left: 460px;
-    top: 600px;
- }
-
-
-p1 {
- text-align: center;
-    font-family:helvetica;  
-    font-size: 20px;
-    color:black;
-
-  position: absolute;
-    left: 100px;
-    top: 200px;
- }
-p3 {
- text-align: center;
-    font-family:helvetica;  
-    font-size: 20px;
-    color:black;
-
-  position: absolute;
-    left: 1200px;
-    top: 200px;
- }
-p2 {
- text-align: center;
-    font-family:helvetica;  
-    font-size: 20px;
-    color:black;
-
-  position: absolute;
-    left: 550px;
-    top: 200px;
- }
 
 
 
@@ -158,6 +126,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: helvetica;
 }
 
 
