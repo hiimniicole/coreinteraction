@@ -1,0 +1,95 @@
+body {
+    background-color: lightgray;
+}
+
+#wrapper{
+    max-width:1200px;
+    height:1200px;
+    background-color:red;
+}
+
+#rectangletwo{
+    width:40%;
+    height:100px;
+    background:yellow;
+    margin-top:30px;
+    margin-left:2px;
+    float:left;
+}
+
+#rectanglethree{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+
+#rectanglefour{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+
+#rectanglefive{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+
+#rectangleright{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+
+#rectanglebottom{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+#rectanglebottomtwo{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+
+#rectanglesix{
+    width:20%;
+    height:100px;
+    background:pink;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+    
+    #rectanglesix{
+    width:1000%;
+    height:100px;
+    background:blue;
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+}
+}

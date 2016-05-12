@@ -1,0 +1,111 @@
+.firstname{
+font-size: 200px;
+color: #FF00E4;
+position: absolute;
+font-family: Impact, Charcoal, sans-serif;
+top:-40px;
+left:260px;
+}
+.lastname{
+font-size: 200px;
+color: #FF00E4;
+position: absolute;
+font-family: Impact, Charcoal, sans-serif;
+top:500px;
+left:330px;
+}
+
+body {
+    background-color:yellow;
+}
+
+.img-circle {
+  position:relative; 
+    width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border:0;
+	top:330px;
+	left:700px;
+	background: url(p123526s.jpg) no-repeat;
+	}
+
+.img-circle2 {
+  position:relative; 
+    width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border:0;
+	top:330px;
+	left:200px;
+	background: url(pink.jpg) no-repeat;
+	}
+
+.img-circle3 {
+  position:relative; 
+    width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border:0;
+	top:160px;
+	left:150px;
+	background: url(sinfonietta_metamorph.jpg) no-repeat;
+	}
+	
+.bio {
+    
+    text-align: justify;
+    text-justify: inter-word;
+font-size: 30px;
+color: black;
+position: absolute;
+font-family: Impact;
+    
+}
+.bioname{
+font-size: 100px;
+color: black;
+position: absolute;
+font-family: Impact;  
+    
+}
+.bio2{
+   text-align: justify;
+    text-justify: inter-word;
+font-size: 30px;
+color: black;
+position: absolute;
+font-family: Impact;  
+  top:150px;
+	left:15px;  
+}
+
+.hf1{
+    position: absolute;
+    top:350px;
+	left:400px; 
+}
+
+.hf2{
+    position: absolute;
+    top:700px;
+	left:400px; 
+}
+.hf3{
+    position: absolute;
+    top:1000px;
+	left:400px; 
+}
+
+.hf5{
+    position: absolute;
+    top:130px;
+	left:750px;   
+    
+}

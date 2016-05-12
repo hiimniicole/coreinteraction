@@ -1,0 +1,173 @@
+html { 
+  font-family: helvetica;
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+
+	.desktop {
+		display:none;
+	}
+	
+	.mapforphone {
+	   position: absolute;
+	   top:0px;
+	   bottom:0px;
+	   left: 0px;
+	   right: 0px;
+	}
+	
+	.mapforphone img {
+		height: 100%;
+		overflow-x: hidden;
+		margin-left: -30px;
+		z-index:1;
+	}
+	
+	.img-circle8 {
+    	position:relative;
+    	width: 50px;
+		height: 50px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		top:10px;
+		left:10px;
+		background: url(Finch_Spencer_PhotoFHL.jpg) no-repeat;
+		z-index: 1000;
+	}
+
+	h2{
+	font-size: 20px;
+	color: green;  
+	position:absolute;
+	font-family: helvetica;
+	}
+
+}
+
+@media (min-width:401px) {
+	
+	.mobile {
+		display:none;
+	}
+	
+	
+  .phone {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+  }
+  
+  .phone img {
+  	max-height: 675px;
+  }
+
+
+.circle-wrapper img {
+	z-index:1000;
+}
+
+.img-circle {
+  	position:relative; 
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border:0;
+	top:20%;
+	left:50%;
+	background: url(phone1.JPG) no-repeat;
+}
+
+.img-circle2 {
+    position:relative;
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	top:360px;
+	left:950px;
+	background: url(phone2.JPG) no-repeat;
+	}
+
+.img-circle3 {
+    position:relative;
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	top:450px;
+	left:800px;
+	background: url(phone3.JPG) no-repeat;
+	}
+.img-circle4 {
+    position:relative;
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	top:510px;
+	left:490px;
+	background: url(phone4.JPG) no-repeat;
+	}
+.img-circle5 {
+    position:relative;
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	top:645px;
+	left:630px;
+	background: url(phone5.JPG) no-repeat;
+	}
+
+.img-circle6 {
+    position:relative;
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	top:385px;
+	left:240px;
+	background: url(phone6.JPG) no-repeat;
+	}
+
+.img-circle7 {
+    position:relative;
+    width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	top:550px;
+	left:400px;
+	background: url(phone7.JPG) no-repeat;
+	}
+	
+}
+
+.image-caption-wrapper {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+.image-caption-wrapper img {
+   margin-top:50%;
+   width:100%;
+}
+
+.caption {
+	margin-top:30px;
+	color:green;
+	text-align: center;
+}

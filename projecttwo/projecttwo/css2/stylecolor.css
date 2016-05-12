@@ -1,0 +1,196 @@
+.circle-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}
+
+.dummy {
+    padding-top: 100%;
+}
+
+.circle-container {
+    display: inline-block;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #000;
+    border-radius: 50%;
+}
+
+.circle-container__black {
+    width: 100%;
+    z-index: 1;
+}
+
+.circle__black {
+    background-color: black;
+    z-index: 1;
+}
+
+.circle-container__purple {
+    width: 80%;
+    z-index: 2;
+}
+
+.circle__purple {
+    background-color: purple;
+    z-index: 2;
+}
+
+.circle-container__blue {
+    width: 60%;
+    z-index: 3;
+}
+
+.circle__blue {
+    background-color: blue;
+    z-index: 3;
+}
+
+.circle-container__blue {
+    width: 60%;
+    z-index: 3;
+}
+
+.circle__blue {
+    background-color: blue;
+    z-index: 3;
+}
+
+.circle-container__red {
+    width: 40%;
+    z-index: 4;
+}
+
+.circle__red {
+    background-color: red;
+    z-index: 4;
+}
+
+.circle-container__yellow {
+    width: 20%;
+    z-index: 5;
+}
+
+.circle__yellow {
+    background-color: yellow;
+    z-index: 5;
+}
+
+
+
+.blue {
+    background: linear-gradient(226deg, #07c0ff, #01a3da, #0382ad, #015c7a, #02455a, #012935);
+background-size: 1000% 1000%;
+
+    -webkit-animation: red 12s ease infinite;
+    -moz-animation: red 12s ease infinite;
+    animation: red 12s ease infinite;
+}
+.purple {
+    background: linear-gradient(226deg, #a786ff, #7d62c5, #5e479c, #48357a, #2f2055, #1b1331);
+background-size: 1000% 1000%;
+
+    -webkit-animation: red 12s ease infinite;
+    -moz-animation: red 12s ease infinite;
+    animation: red 12s ease infinite;
+}
+
+.yellow {
+    background: linear-gradient(226deg, #ffea09, #efdc11, #d4c412, #b1a310, #776d05, #554e03, #d8d189, #beb87b);
+background-size: 1000% 1000%;
+
+    -webkit-animation: red 12s ease infinite;
+    -moz-animation: red 12s ease infinite;
+    animation: red 12s ease infinite;
+}
+
+.black {
+    background: linear-gradient(226deg, #ffffff, #e3e3e3, #c9c6c6, #a2a0a0, #7c7b7b, #5a5959, #333333, #000000);
+background-size: 1000% 1000%;
+
+    -webkit-animation: red 12s ease infinite;
+    -moz-animation: red 12s ease infinite;
+    animation: red 12s ease infinite;
+}
+.red {
+    background: linear-gradient(226deg, #fe8989, #e57777, #c76161, #a23b3b, #953131, #752424, #4b1717);
+background-size: 1000% 1000%;
+
+    -webkit-animation: red 12s ease infinite;
+    -moz-animation: red 12s ease infinite;
+    animation: red 12s ease infinite;
+}
+.colors {
+   background: linear-gradient(226deg, #634cf2, #2300ff, #b62727, #e3da71, #000000);
+background-size: 1000% 1000%;
+
+-webkit-animation: red 12s ease infinite;
+    -moz-animation: red 12s ease infinite;
+    animation: red 12s ease infinite;
+
+}
+
+
+.red
+
+@-webkit-keyframes red {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-moz-keyframes red {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@keyframes red {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+
+
+
+
+
+#yellow{
+  position: absolute;
+    top:350px;
+    left:380px;
+}
+#red{
+  position: absolute;
+    top:300px;
+    left:340px;
+}
+#blue{
+  position: absolute;
+    top:300px;
+    left:330px;
+}
+#purple{
+  position: absolute;
+    top:55px;
+    left:140px;
+}
+#black{
+  position: absolute;
+    top:40px;
+    left:100px;
+}
